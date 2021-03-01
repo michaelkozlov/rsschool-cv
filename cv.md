@@ -30,4 +30,4 @@ const debounce = (fn, ms) => {
 Online IT course Lushenko Alexander
 
 ## Language skills
-Level - Beginner
+English: Level - Beginner
