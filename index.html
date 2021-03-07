@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>CV Michael Kozlov</title>
+</head>
+<body>
+<div class="container">
+    <header>
+        <p class="label">rsschool-cv</p>
+    </header>
+    <section>
+        <h1>Personal information</h1>
+        <div class="personal">
+            <ul>
+                <li>Name: Michael Kozlov</li>
+                <li>Address: Nizhny Novgorod</li>
+                <li>Phone number: 79307119912</li>
+                <li>Marital status: single</li>
+                <li>Date of birth: 02.05.1993</li>
+                <li>Email: red.bymike@gmail.com
+                </li>
+            </ul>
+            <img src="photo.png" alt="my photo">
+        </div>
+    </section>
+    <section>
+        <h2>Objective</h2>
+        <p>My purpose is to become a good programmer. I think it is very interesting and helps to develop in
+            general.</p>
+    </section>
+    <section>
+        <h2>Skills</h2>
+        <p>JavaScript, React, BAM</p>
+    </section>
+    <section>
+        <h2>Example code</h2>
+        <p>
+            <code>
+                const debounce = (fn, ms) => {<br>
+                    let timeout;<br>
+                     return function () {<br>
+                        const func = () => {<br>
+                        fn.apply(null, arguments)<br>
+                    };<br>
+                    clearTimeout(timeout);<br>
+                    timeout = setTimeout(func, ms);<br>
+                }
+                }
+            </code>
+        </p>
+    </section>
+    <section>
+        <h2>Education</h2>
+        <p>Online IT course Lushenko Alexander</p>
+    </section>
+    <section>
+        <h2>Language skills</h2>
+        <p>English: Level - Beginner</p>
+    </section>
+</div>
+</body>
+</html>
